@@ -5,12 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet">
     <title>Assignment-1</title>
-    <style>
-        img {
-            width: 40vw;
-        }
-    </style>
 </head>
 
 <body>
@@ -18,34 +16,32 @@
         <h1>GAURAV PRAKASH PAREEK</h1>
     </section>
     <hr>
-    <section class="Description">
-        <p>I am a final year B.tech Computer Science student with specialization in Big Data.
-            My coding language is java.
-            I am skilled at Java,Python Data Analytics, Machine Learning,Django,DSA.
-            I have participated in many online and offline coding contests.
-            Furthermore I am an exceptional team player who understand the importance of team work in a dynamic and
-            challenging environment
-            and one who can learn new stuffs easily.</p>
-    </section>
+    <div class="d-flex justify-content-evenly align-items-center">
+        <div id="My-image">
+            <img src="Gaurav.photo.jpg" ,alt="My image">
+        </div>
+        <div class="Description">
+                <p>I am a final year B.tech Computer Science student with specialization in Big Data.
+                    My coding language is java.
+                    I am skilled at Java,Python Data Analytics, Machine Learning,Django,DSA.
+                    I have participated in many online and offline coding contests.
+                    Furthermore I am an exceptional team player who understand the importance of team work in a dynamic and
+                    challenging environment
+                    and one who can learn new stuffs easily.</p>
+            <a href="https://github.com/Gauravpareek11" target="_blank" class="text-white btn btn-primary">Github</a>
+        </div>
+    </div>
     <hr>
-    <section id="My-image">
-        <img src="Gaurav.photo.jpg" ,alt="My image">
-    </section>
-    <hr>
-    <section id="Link-to-github">
-        <a href="https://github.com/Gauravpareek11" target="_blank">Link To Github</a>
-    </section>
-    <hr>
-    <section class="programming-languages">
+    <div class="programming-languages">
         <h3>List of programming languages:</h3>
         <ul>
             <li>Java</li>
             <li>Python</li>
             <li>C</li>
         </ul>
-    </section>
+    </div>
     <hr>
-    <section class="My-table">
+    <div class="My-table">
         <table>
             <tr>
                 <th>Name</th>
@@ -56,34 +52,48 @@
             </tr>
             <tr>
                 <td>Gaurav</td>
-                <td>12</td>
+                <td>21</td>
                 <td>Kolkata</td>
                 <td>UEM Jaipur</td>
                 <td>CSE</td>
             </tr>
+            <tr>
+                <td>Ram</td>
+                <td>22</td>
+                <td>Jaipur</td>
+                <td>UEM Jaipur</td>
+                <td>CSE</td>
+            </tr>
+            <tr>
+                <td>Mahfus</td>
+                <td>21</td>
+                <td>Girdih</td>
+                <td>UEM Jaipur</td>
+                <td>Electrical</td>
+            </tr>
         </table>
-    </section>
+    </div>
     <hr>
-    <section class="contact-form">
+    <div class="contact-form">
         <form action="test.html" target="_blank">
-            <label for="Name">Enter Your Name</label><br>
+            <label for="Name">Enter Your Name:</label>
             <input type="text" id="Name">
             <hr>
-            <label for="Age">Enter Your Age</label><br>
+            <label for="Age">Enter Your Age:</label>
             <input type="number" id="Age">
             <hr>
-            <label for="Address">Enter Your Address</label><br>
+            <label for="Address">Enter Your Address:</label>
             <input type="text" id="Address">
             <hr>
-            <label for="College">Enter Your College</label><br>
+            <label for="College">Enter Your College:</label>
             <input type="text" id="College">
             <hr>
-            <label for="Dept">Enter Your Department</label><br>
+            <label for="Dept">Enter Your Department:</label>
             <input type="text" id="Dept">
             <hr>
-            <button>Submit</button>
+            <input class="btn btn-primary" type="submit" value="Submit">
         </form>
-    </section>
+    </div>
 </body>
 
 </html>
